@@ -1,0 +1,16 @@
+<nav class="header-menu">
+  <!-- Ícone de menu ou close, dependendo do estado de isMenuOpen -->
+  <mat-icon class="header-menu__icon" *ngIf="!isScreenLarge" color="primary" (click)="toggleMenu()">
+    {{ isMenuOpen ? 'close' : 'menu' }}
+  </mat-icon>
+
+  <!-- Lista de links, visível quando o menu está aberto -->
+  <ul class="header-menu__list" [ngStyle]="{ 'right': isMenuOpen ? '0' : '-100%' }">
+    <li class="header-menu__list__li"><a class="header-menu__list__link" routerLink="" (click)="toggleMenu()">Home</a>
+    </li>
+    <li class="header-menu__list__li"><a class="header-menu__list__link" routerLink="news"
+        (click)="toggleMenu()">Novidades</a></li>
+    <li class="header-menu__list__li"><a class="header-menu__list__link" routerLink="about"
+        (click)="toggleMenu()">Sobre</a></li>
+  </ul>
+</nav>

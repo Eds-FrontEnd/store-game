@@ -1,0 +1,43 @@
+.about {
+  &__header {
+    background-color: var(--ps-blue);
+    color: var(--ps-white);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  &__section {
+    margin: 2rem 0;
+
+    &--intro {
+      background-color: var(--ps-white);
+      padding: 1.5rem;
+    }
+
+    &--history {
+      background-color: var(--ps-white);
+      padding: 1.5rem;
+    }
+
+    &--features {
+      padding: 1.5rem;
+    }
+  }
+
+  &__section-title {
+    font-size: 2rem;
+    color: var(--ps-blue);
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    color: var(--ps-blue);
+    line-height: 1.5;
+  }
+}

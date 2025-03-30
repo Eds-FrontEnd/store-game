@@ -1,0 +1,8 @@
+<main class="home-container">
+  <div class="home-container__games">
+    <!-- Usar *ngFor para iterar sobre os jogos -->
+    <app-card *ngFor="let game of games" [gameCover]="game.gameCover" [gameLabel]="game.gameLabel"
+      [gameType]="game.gameType" [gamePrice]="game.gamePrice">
+    </app-card>
+  </div>
+</main>

@@ -1,0 +1,72 @@
+.news {
+  &__header {
+    background-color: var(--ps-blue-light);
+    color: var(--ps-blue);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  &__section {
+    margin: 2rem 0;
+
+    &--intro {
+      background-color: var(--ps-white);
+      padding: 1.5rem;
+    }
+
+    &--latest {
+      background-color: var(--ps-white);
+      padding: 1.5rem;
+    }
+
+    &--offers {
+      padding: 1.5rem;
+    }
+  }
+
+  &__section-title {
+    font-size: 2rem;
+    color: var(--ps-blue);
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    color: var(--ps-blue);
+    line-height: 1.5;
+  }
+
+  &__article {
+    margin-bottom: 1.5rem;
+
+    &-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: var(--ps-blue);
+      margin-bottom: 1rem;
+    }
+
+    &-text {
+      font-size: 1.2rem;
+      color: var(--ps-white);
+    }
+  }
+
+  &__footer {
+    background-color: var(--ps-blue);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  &__footer-text {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}

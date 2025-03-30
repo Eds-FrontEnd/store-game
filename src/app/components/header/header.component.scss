@@ -1,0 +1,13 @@
+header {
+  width: 100%;
+  min-height: 55px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--ps-white);
+
+  @media screen and (max-width: 330px) {
+    min-width: 320px;
+  }
+}

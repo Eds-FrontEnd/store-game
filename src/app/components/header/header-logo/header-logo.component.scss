@@ -1,0 +1,9 @@
+.header-logo {
+  &__img {
+    height: 40px;
+
+    @media screen and (max-width: 495px) {
+      height: 30px;
+    }
+  }
+}
