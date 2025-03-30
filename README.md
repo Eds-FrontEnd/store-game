@@ -30,9 +30,6 @@ Além disso, seguimos a metodologia **BEM** (Block, Element, Modifier), que faci
 
 ### Funcionalidade
 - O serviço retorna os dados em formato JSON.
-- Ele utiliza **RxJS** para tratar a resposta da API com os operadores `map` e `catchError`:
-  - **map**: Se a resposta da API for válida, ela é retornada. Caso contrário, um array vazio é retornado.
-  - **catchError**: Em caso de erro na requisição, ele captura o erro, exibe uma mensagem no console e retorna um array vazio.
 
 ### Explicação sobre `Observable`
 Em Angular, um **Observable** é uma abstração que permite trabalhar com valores assíncronos, como uma resposta ao JSON.
